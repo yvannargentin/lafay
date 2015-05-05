@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'robotoregular';
+    src: url('../fonts/roboto/Roboto-Regular-webfont.eot');
+    src: url('../fonts/roboto/Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto/Roboto-Regular-webfont.woff2') format('woff2'),
+         url('../fonts/roboto/Roboto-Regular-webfont.woff') format('woff'),
+         url('../fonts/roboto/Roboto-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/roboto/Roboto-Regular-webfont.svg#robotoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'robotobold';
+    src: url('../fonts/roboto/Roboto-Bold-webfont.eot');
+    src: url('../fonts/roboto/Roboto-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto/Roboto-Bold-webfont.woff2') format('woff2'),
+         url('../fonts/roboto/Roboto-Bold-webfont.woff') format('woff'),
+         url('../fonts/roboto/Roboto-Bold-webfont.ttf') format('truetype'),
+         url('../fonts/roboto/Roboto-Bold-webfont.svg#robotobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'roboto_condensedbold';
+    src: url('../fonts/roboto/RobotoCondensed-Bold-webfont.eot');
+    src: url('../fonts/roboto/RobotoCondensed-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto/RobotoCondensed-Bold-webfont.woff2') format('woff2'),
+         url('../fonts/roboto/RobotoCondensed-Bold-webfont.woff') format('woff'),
+         url('../fonts/roboto/RobotoCondensed-Bold-webfont.ttf') format('truetype'),
+         url('../fonts/roboto/RobotoCondensed-Bold-webfont.svg#roboto_condensedbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body, html {
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;         /* Opera/IE 8+ */
+  font-family: robotoregular;
+}
+
+#mainContainer{
+  margin : auto;
+  width: 400px;
+  height: 400px;
+  background: rgba(44, 62, 80,1.0);
+  font-size: 0px;
+  margin-top: calc(25% - 200px);
+}
+
+.case {
+  width: 90px;
+  font-size: 25px;
+  height : 90px;
+  margin: 5px;
+  display: inline-block;
+  background: rgba(33,33,33,1.0);
+  color: rgba(255,255,255,1);
+  line-height: 90px;
+  font-family: robotobold;
+  text-align: center;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.N2{background-color: rgba(243, 156, 18,1.0);}
+.N4{background-color: rgba(192, 57, 43,1.0);}
+.N8{background-color: rgba(241, 196, 15,1.0);}
+.N16{background-color: rgba(142, 68, 173,1.0);}
+.N32{background-color: rgba(41, 128, 185,1.0);}
+.N64{background-color: rgba(22, 160, 133,1.0);}
+.N128{background-color: rgba(189, 195, 199,1.0); color: rgba(0,0,0,1);}
+.N256{background-color: rgba(46, 204, 113,1.0); color: rgba(0,0,0,1);}
+.N512{background-color: rgba(241, 196, 15,1.0); color: rgba(0,0,0,1);}
+.N1024{background-color: rgba(52, 152, 219,1.0); color: rgba(0,0,0,1);}
+.N2048{background-color: rgba(155, 89, 182,1.0); color: rgba(0,0,0,1);}
+
+#highscore{
+  position: absolute;
+  margin-top: 120px;
+  left: 2em;
+  display: block;
+  width: 300px;
+  border: 1px solid rgba(0,0,0,1);
+}
+button.centered{margin:auto;left:0;right:0;display: block;}
+.padding{padding: 1em;}
+.border-bottom{border-bottom: 1px solid #212121;}
+#highscore span.score{
+  display: block;
+}
+
+#board{
+  float: right;
+  display: block;
+  height: 200px;
+  width : 200px;
+  border: 1px solid black;
+}
+
