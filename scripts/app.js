@@ -9,4 +9,4 @@
  * Main module of the application.
  */
 angular
-  .module('2k48App', []);
+  .module('lafay', []);

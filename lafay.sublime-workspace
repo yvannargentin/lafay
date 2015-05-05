@@ -1,0 +1,512 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"appen",
+				"appendTo	.appendTo()"
+			],
+			[
+				"list",
+				"listLienAwards"
+			],
+			[
+				"text-",
+				"text-transform"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"border-col",
+				"border-collapse"
+			],
+			[
+				"bor",
+				"border-collapse"
+			],
+			[
+				"fethc",
+				"fetchAll"
+			],
+			[
+				"img",
+				"imgBkg"
+			],
+			[
+				"type",
+				"typeProjet"
+			],
+			[
+				"ta",
+				"table"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 160.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2deb499853c4371624f5a07e27c334aa' + 'bf8c4e67d14fb0525ba4f89698a6d7e1'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib2,os,hashlib; h = '2deb499853c4371624f5a07e27c334aa' + 'bf8c4e67d14fb0525ba4f89698a6d7e1'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation')"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/Documents/developpement/web/lafay"
+	],
+	"file_history":
+	[
+		"/D/les programmes/xampp/htdocs/insides/wp-content/themes/elevate/template-blog.php",
+		"/D/les programmes/xampp/htdocs/insides/wp-content/themes/elevate/sidebar.php",
+		"/D/les programmes/xampp/htdocs/insides/wp-content/themes/elevate/index.php",
+		"/D/les programmes/xampp/htdocs/insides/wp-content/themes/elevate/page.php",
+		"/D/Documents/GitHub/bachelorproject/inca/www/index.html",
+		"/C/Users/yvann/Desktop/test.css",
+		"/D/les programmes/xampp/htdocs/insides/wp-content/themes/elevate/footer.php",
+		"/D/les programmes/xampp/htdocs/insides/wp-content/themes/elevate/template-post-grid.php",
+		"/D/les programmes/xampp/htdocs/insides/wp-content/themes/elevate/functions.php",
+		"/D/les programmes/xampp/htdocs/insides/wp-content/themes/elevate/theme-core/theme-register-scripts.php",
+		"/D/les programmes/xampp/htdocs/insides/wp-content/themes/elevate/single.php",
+		"/D/les programmes/xampp/htdocs/Crayonoir/bootstrap/css/style.css",
+		"/D/les programmes/xampp/htdocs/insides/wp-content/themes/elevate/style.css",
+		"/D/les programmes/xampp/htdocs/insides/wp-content/themes/elevate/theme-core/theme-assets/javascripts/isotope/jquery.isotope.js",
+		"/D/les programmes/xampp/htdocs/insides/wp-content/themes/elevate/theme-core/theme-layout-variables.php",
+		"/D/les programmes/xampp/htdocs/insides/wp-content/themes/elevate/theme-core/ot-theme-options.php",
+		"/D/les programmes/xampp/htdocs/insides/wp-content/themes/index.php",
+		"/D/les programmes/xampp/htdocs/insides/wp-includes/general-template.php",
+		"/D/les programmes/xampp/htdocs/insides/wp-content/themes/elevate/header.php",
+		"/D/les programmes/xampp/htdocs/Crayonoir/bootstrap/twitter-oauth/jquery.jstwitter.js",
+		"/D/les programmes/xampp/htdocs/insides/.htaccess",
+		"/D/les programmes/xampp/htdocs/Crayonoir/journal.php",
+		"/D/les programmes/xampp/htdocs/Crayonoir/bootstrap/img/twitter-blog.svg",
+		"/D/les programmes/xampp/htdocs/Crayonoir/bootstrap/twitter-oauth/index.html",
+		"/D/les programmes/xampp/htdocs/Crayonoir/nosservices.php",
+		"/D/les programmes/xampp/htdocs/Crayonoir/bootstrap/twitter-oauth/style.css",
+		"/D/les programmes/xampp/htdocs/Crayonoir/bootstrap/twitter-oauth/codebird.php",
+		"/D/les programmes/xampp/htdocs/Crayonoir/bootstrap/twitter-oauth/grabtweets.php",
+		"/D/les programmes/xampp/htdocs/Crayonoir/bootstrap/twitter-oauth/jquery.gridalicious.min.js",
+		"/D/les programmes/xampp/htdocs/Crayonoir/index.php",
+		"/D/les programmes/xampp/htdocs/Crayonoir/sitemap.xml",
+		"/D/les programmes/xampp/htdocs/Crayonoir/bootstrap/js/tweeterfeed.js",
+		"/D/les programmes/xampp/htdocs/Crayonoir/bootstrap/twitteroauth-master/twitteroauth/OAuth.php",
+		"/D/les programmes/xampp/htdocs/Crayonoir/bootstrap/js/get-tweets1.1.php",
+		"/D/les programmes/xampp/htdocs/Crayonoir/twitteroauth-master/twitteroauth-master/twitteroauth/OAuth.php",
+		"/D/les programmes/xampp/htdocs/Crayonoir/twitteroauth-master/twitteroauth-master/twitteroauth/twitteroauth.php",
+		"/D/les programmes/xampp/htdocs/Crayonoir/twitteroauth-master/twitteroauth-master/index.php",
+		"/D/les programmes/xampp/htdocs/Crayonoir/twitteroauth-master/twitteroauth-master/redirect.php",
+		"/D/les programmes/xampp/htdocs/Crayonoir/twitteroauth-master/twitteroauth-master/callback.php",
+		"/D/les programmes/xampp/htdocs/Crayonoir/twitteroauth-master/twitteroauth-master/test.php",
+		"/D/les programmes/xampp/htdocs/Crayonoir/twitteroauth-master/twitteroauth-master/config.php",
+		"/D/les programmes/xampp/htdocs/Crayonoir/twitteroauth-master/twitteroauth-master/clearsessions.php",
+		"/D/les programmes/xampp/htdocs/Crayonoir/twitteroauth-master/twitteroauth-master/connect.php",
+		"/D/les programmes/xampp/htdocs/Crayonoir/twitteroauth-master/twitteroauth-master/html.inc",
+		"/D/les programmes/xampp/htdocs/Crayonoir/bootstrap/twitteroauth-master/twitteroauth/twitteroauth.php",
+		"/D/les programmes/xampp/htdocs/Crayonoir/bootstrap/twitteroauth-master/test.php",
+		"/D/les programmes/xampp/htdocs/Crayonoir/bootstrap/twitteroauth-master/redirect.php",
+		"/D/les programmes/xampp/htdocs/Crayonoir/bootstrap/twitteroauth-master/index.php",
+		"/D/les programmes/xampp/htdocs/Crayonoir/bootstrap/twitteroauth-master/html.inc",
+		"/D/les programmes/xampp/htdocs/Crayonoir/bootstrap/twitteroauth-master/connect.php",
+		"/D/les programmes/xampp/htdocs/Crayonoir/bootstrap/twitteroauth-master/config.php",
+		"/D/les programmes/xampp/htdocs/Crayonoir/bootstrap/twitteroauth-master/clearsessions.php",
+		"/D/les programmes/xampp/htdocs/Crayonoir/bootstrap/twitteroauth-master/callback.php",
+		"/D/les programmes/xampp/htdocs/Crayonoir/menubis.php",
+		"/D/les programmes/xampp/htdocs/Crayonoir/admin/awwards.php",
+		"/D/les programmes/xampp/htdocs/Crayonoir/include/fonctions.php",
+		"/D/les programmes/xampp/htdocs/Crayonoir/DirectionAwareHoverEffect/DirectionAwareHoverEffect/css/demo.css",
+		"/D/les programmes/xampp/htdocs/Crayonoir/header-statique.php",
+		"/C/Users/yvann/Desktop/config-pc.jpg",
+		"/C/Users/yvann/Desktop/config-pc.txt",
+		"/D/les programmes/xampp/htdocs/Crayonoir/bootstrap/js/jquery.hoverdir.js",
+		"/D/les programmes/xampp/htdocs/Crayonoir/DirectionAwareHoverEffect/DirectionAwareHoverEffect/css/style.css",
+		"/D/les programmes/xampp/htdocs/Crayonoir/DirectionAwareHoverEffect/DirectionAwareHoverEffect/css/noJS.css",
+		"/D/les programmes/xampp/htdocs/Crayonoir/projetclient.php",
+		"/D/les programmes/xampp/htdocs/Crayonoir/admin/accueil.php",
+		"/D/les programmes/xampp/htdocs/Crayonoir/admin/Contact.php",
+		"/D/les programmes/xampp/htdocs/Crayonoir/admin/bkgs.php",
+		"/D/les programmes/xampp/htdocs/Crayonoir/admin/clients.php",
+		"/D/les programmes/xampp/htdocs/Crayonoir/admin/stats.php",
+		"/D/les programmes/xampp/htdocs/Crayonoir/bootstrap/fonts/ostrich/ostrich-regular-webfont.woff2",
+		"/D/les programmes/xampp/htdocs/Crayonoir/bootstrap/fonts/ostrich/ostrich-regular-webfont.woff",
+		"/D/les programmes/xampp/htdocs/Crayonoir/bootstrap/fonts/ostrich/ostrich-regular-webfont.ttf",
+		"/D/les programmes/xampp/htdocs/Crayonoir/bootstrap/fonts/ostrich/ostrich-regular-webfont.svg",
+		"/D/les programmes/xampp/htdocs/Crayonoir/bootstrap/fonts/ostrich/ostrich-regular-webfont.eot",
+		"/C/Users/yvann/Desktop/webfontkit-20150313-201309/stylesheet.css",
+		"/C/Users/yvann/Desktop/webfontkit-20150313-201309/ostrich-regular-demo.html",
+		"/D/les programmes/xampp/htdocs/Crayonoir/.htaccess",
+		"/D/les programmes/xampp/htdocs/celcius/clean/index.php",
+		"/D/les programmes/xampp/htdocs/Crayonoir/bootstrap/js/old.general.js",
+		"/D/les programmes/xampp/htdocs/Crayonoir/bootstrap/js/general.js",
+		"/D/les programmes/xampp/htdocs/Crayonoir/bootstrap/js/jquery-ui.min.js",
+		"/D/les programmes/xampp/htdocs/celcius/clean/.htaccess",
+		"/D/les programmes/xampp/htdocs/Crayonoir/quisommesnous.php",
+		"/D/les programmes/xampp/htdocs/Crayonoir/nosprojets.php",
+		"/D/les programmes/xampp/htdocs/Crayonoir/menu.php",
+		"/D/les programmes/xampp/htdocs/Crayonoir/bootstrap/css/landscapecheck.css",
+		"/D/les programmes/xampp/htdocs/Crayonoir/footer.php",
+		"/D/les programmes/xampp/htdocs/Crayonoir/bootstrap/mini-instagram.svg",
+		"/D/les programmes/xampp/htdocs/Crayonoir/bootstrap/mini-location.svg",
+		"/D/les programmes/xampp/htdocs/Crayonoir/bootstrap/mini-facebook.svg",
+		"/D/les programmes/xampp/htdocs/Crayonoir/bootstrap/mini-mail.svg",
+		"/D/les programmes/xampp/htdocs/Crayonoir/bootstrap/css/jquery.fullPage.css",
+		"/D/les programmes/xampp/htdocs/Crayonoir/ftpsync.settings",
+		"/C/Users/yvann/AppData/Roaming/Sublime Text 3/Packages/User/FTPSync.sublime-settings",
+		"/C/Users/yvann/AppData/Roaming/Sublime Text 3/Packages/User/ftpsync.settings",
+		"/D/les programmes/xampp/htdocs/celcius/v2/ftpsync.settings",
+		"/D/les programmes/xampp/htdocs/Crayonoir/preloader.php",
+		"/D/les programmes/xampp/htdocs/Crayonoir/s",
+		"/D/les programmes/xampp/htdocs/celcius/v2/bootstrap/css/style.css",
+		"/D/les programmes/xampp/htdocs/celcius/v2/changements adri",
+		"/D/les programmes/xampp/htdocs/celcius/v2/index.php",
+		"/D/les programmes/xampp/htdocs/celcius/v2/OffCanvasMenuEffects-master/css/menu_sideslide.css",
+		"/D/les programmes/xampp/htdocs/celcius/v2/bootstrap/css/menu_sideslide.css",
+		"/D/les programmes/xampp/htdocs/celcius/v2/bootstrap/css/custom.css",
+		"/D/les programmes/xampp/htdocs/celcius/v2/OffCanvasMenuEffects-master/sideslide.html",
+		"/D/les programmes/xampp/htdocs/celcius/v2/bootstrap/js/enquire.js",
+		"/D/les programmes/xampp/htdocs/celcius/v2/OffCanvasMenuEffects-master/css/demo.css",
+		"/D/les programmes/xampp/htdocs/celcius/v2/bootstrap/img/arrow.svg",
+		"/D/les programmes/xampp/htdocs/celcius/v2/realisations.php",
+		"/D/les programmes/xampp/htdocs/celcius/v2/bootstrap/css/component.css",
+		"/D/les programmes/xampp/htdocs/celcius/v2/bootstrap/js/AnimOnScroll.js",
+		"/D/les programmes/xampp/htdocs/celcius/v2/test.html",
+		"/D/les programmes/xampp/htdocs/celcius/v2/exemple/index.html",
+		"/D/les programmes/xampp/htdocs/celcius/v2/include/fonctions.php",
+		"/D/les programmes/xampp/htdocs/celcius/v2/exemple/index4.html",
+		"/D/les programmes/xampp/htdocs/celcius/v2/exemple/index2.html",
+		"/D/les programmes/xampp/htdocs/celcius/v2/exemple/index3.html",
+		"/D/les programmes/xampp/htdocs/celcius/v2/bootstrap/js/jquery.slitslider.js",
+		"/D/les programmes/xampp/htdocs/celcius/v2/bootstrap/css/default.css",
+		"/D/les programmes/xampp/htdocs/celcius/v2/FullscreenSlitSlider/FullscreenSlitSlider/index.html",
+		"/D/les programmes/xampp/htdocs/celcius/v2/FullscreenSlitSlider/FullscreenSlitSlider/css/custom.css",
+		"/D/les programmes/xampp/htdocs/celcius/v2/FullscreenSlitSlider/FullscreenSlitSlider/css/demo.css",
+		"/D/les programmes/xampp/htdocs/celcius/v2/admin/citation.php",
+		"/D/les programmes/xampp/htdocs/celcius/v2/admin/general.php",
+		"/D/les programmes/xampp/htdocs/celcius/v2/admin/bkgs.php",
+		"/D/les programmes/xampp/htdocs/celcius/v2/admin/accueil.php",
+		"/C/Users/yvann/AppData/Roaming/Sublime Text 3/Packages/AutoFileName/autofilename.sublime-settings",
+		"/C/Users/yvann/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 96.0,
+		"where_history":
+		[
+			"D:\\les programmes\\xampp\\htdocs\\celcius",
+			"D:\\les programmes\\xampp\\htdocs\\celcius\\v2\\bootstrap\\img",
+			"D:\\les programmes\\xampp\\htdocs\\celcius"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"#page-header .entry-title",
+			"cml_flags",
+			"img",
+			"cml_flags",
+			"primary",
+			"flag",
+			"flags",
+			"module_title",
+			"@",
+			"isotope",
+			"_getMeasurement",
+			"gutter",
+			"function",
+			"footer",
+			"masonry",
+			"jquery",
+			"gutter",
+			"column",
+			"masonry",
+			"data-isotope",
+			"isotope_mode",
+			"masonry",
+			"@",
+			"1000px",
+			"JQTWEET",
+			"text",
+			"QuenessTestAcc",
+			"href",
+			"<a",
+			"200",
+			"<!",
+			"Add",
+			"iphone",
+			"Projet",
+			"play",
+			".text-position-accueil",
+			"#Accueil",
+			"bgvid",
+			"stop",
+			"play",
+			"h1",
+			"stop",
+			"top",
+			"bgvid",
+			"http://www.google-analytics.com/analytics.js",
+			"analytics",
+			"person",
+			"#Accueil",
+			"video",
+			"only screen and (max-height: 700px)",
+			".fiche-des",
+			"#alternative",
+			"menu",
+			"menu-toggle",
+			"#menu",
+			"#main",
+			"nos-services-resume\"",
+			"xs",
+			"scroll()",
+			"scroll();",
+			"scroll",
+			");",
+			"1020px",
+			"820px",
+			"800",
+			"load",
+			"mobile",
+			"text-position-accueil",
+			"h2",
+			"decale-gauche-special-accueil",
+			"span#decale-gauche-special-accueil",
+			"decale-gauche-special-accueil",
+			"important",
+			"10%",
+			"#menu",
+			"button-holder",
+			"margin-top",
+			"xs",
+			" #menu div",
+			"#",
+			"#menu",
+			"col-xs-6",
+			"#menu",
+			"menu",
+			"fixed",
+			"fiche-decriptive",
+			"#menu",
+			"text-position-accueil",
+			"span.button-holder",
+			"loader",
+			"\n        function display(){$('#",
+			"span",
+			"nav-dots",
+			"#",
+			"footer",
+			".icon-list",
+			"jquery",
+			".menu",
+			"selected",
+			"bold",
+			"text-placement",
+			"col-md-6",
+			"Rale",
+			".bkg-dark",
+			"text-placement",
+			"col",
+			"md-6",
+			"a.button",
+			"Rale",
+			"bkg-red",
+			"liste-categories",
+			"text-placement",
+			"screen",
+			"max-width",
+			"grid",
+			"images/",
+			"				\n",
+			"container",
+			"opacity",
+			"display:none",
+			"display: none",
+			".row",
+			"luxury",
+			"deco",
+			"h2",
+			"FacebookPageLink",
+			"Horaires",
+			"ShortDescription"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"Awward",
+			"#nav-dots",
+			"col-xs-6",
+			"xs-6",
+			"./bootstrap/img/tmp/",
+			"decoration",
+			"graphisme",
+			"Luxury",
+			"email",
+			"tel",
+			"adresse",
+			"CitationText",
+			"auteurCitation",
+			"luxury",
+			"graphisme",
+			"decoration",
+			".ProjectCenter",
+			"luxury",
+			"Citation",
+			"container-bkg",
+			"rgba(243, 156, 18,",
+			"rgba(39, 174, 96,",
+			"rgba(206,0,36,",
+			"rgba(223,0,36,",
+			"rgba(52, 73, 94,",
+			"rgba(223, 0, 36,",
+			"rgba(52, 73, 94,",
+			"rgba(44, 62, 80,",
+			"rgba(255,153,0,",
+			"rgba(255,153,0",
+			"rgba(101,65,62,",
+			"rgba(121,85,72,",
+			"rgba(255,152,0,",
+			"rgba(41, 128, 185,",
+			"rgba(22, 160, 133,",
+			"rgba(39, 174, 96,"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 30.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "lafay.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"D:\\les programmes\\xampp\\htdocs\\celcius\\celcius.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 244.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
