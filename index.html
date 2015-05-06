@@ -17,11 +17,10 @@
    
 
     <div  class="container">
-        <select ng-model="currentLevel" ng-change="changeLevel(currentLevel)" ng-options="currentLevel as level.value for level in  listLevels" >
-        </select> 
-        <p>votre niveau :  {{currentLevel}}</p>
-        <p>Encore {{nbSeries}} séries !</p>
-        <div id="rond-timer" ng-click="startTimer()">{{time}}</div>
+    <select ng-model="myLvl" ng-change="lvlSelected()" ng-disabled="lvl.selected" ng-init="myLvl=listLevels[0]" ng-options="level.value for level in listLevels"></select>
+        <p ng-if="nbSeries > 0">Encore {{nbSeries}} séries !</p>
+        <p ng-if="nbSeries == 0">GO GO dernière série !</p>
+        <div id="rond-timer" ng-click="startTimer()" ng-class="customStyle.timer">{{time}}</div>
     </div>
 
 

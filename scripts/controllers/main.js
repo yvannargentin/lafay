@@ -16,32 +16,38 @@ angular.module('lafay', [])
   	var list = [];
   	var restTime = 25;
   	var timer;
-  	
+  	var nbSeries = 6;
+  	var timerset = false;
+	var myArg = [];
+
 	for (var i = 1; i <= nbLevel; i++) {
 	    list.push({"value" : i});
 	}
 
   	$scope.time = restTime;
-
-  	$scope.nbSeries = 6;
+  	$scope.lvl = [];
+  	$scope.lvl.selected = false;
+  	$scope.customStyle = [];
+  	$scope.customStyle.timer = "";
+  	$scope.nbSeries = nbSeries;
 	$scope.listLevels = list;
-	$scope.currentLevel = 1;
-
-	/*
-	$scope.toggleTimer = function (){
-		if(timer == null)
-			timer = $interval(inc, 1000);
-		else{
-			$interval.cancel(timer);
-			timer = null;
-			$scope.time = restTime;
-		}
-	};
-	*/
+	$scope.myLvl = 1;
 
 	$scope.startTimer = function (){
-		timer = $interval(inc, 1000);
+		if(!timerset)
+			timer = $interval(inc, 1000);
+		timerset  = true;
 	};
+
+	$scope.lvlSelected = function(){
+		$scope.lvl.selected = true;
+		myArg.level =  $scope.myLvl;
+
+		var tmp = $http.get('./exos.php',myArg)
+		.then(function (data) {console.log(data)});
+
+		
+	}
 
 	function seriesUpdate(){
 		if($scope.nbSeries > 0)
@@ -54,7 +60,9 @@ angular.module('lafay', [])
 		$interval.cancel(timer);
 		timer = null;
 		$scope.time = restTime;
+
 		seriesUpdate();
+		timerset = false;
 	}
 
   	function inc(){
@@ -63,10 +71,14 @@ angular.module('lafay', [])
   		else{
   			stopTimer();
   		}
+  		if($scope.time <= 5)
+  			$scope.customStyle.timer = "watchout";
+  		else
+  			$scope.customStyle.timer = "";
   	}
 
-  	$scope.changeLevel = function(level){
-    	console.log(level);
-  	};
+  	$scope.test = function(){
+  		console.log($scope.myLvl);
+  	}
 
 });
